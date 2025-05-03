@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Графические манипуляторы «мышь»</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#history">История</a></li>
+            <li><a href="#types">Виды</a></li>
+            <li><a href="#test">Тест</a></li>
+            <li><a href="#resources">Ресурсы</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>От деревянного прототипа до сенсорных технологий</h1>
+        <p>Исследуйте эволюцию компьютерной мыши</p>
+    </header>
+
+    <section id="history" class="section">
+        <h2>История создания</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>1964</h3>
+                <img src="images/engelbart-mouse.jpg" alt="Первая мышь">
+                <p>Дуглас Энгельбарт создал первый прототип в Стэнфордском институте. Устройство имело деревянный корпус
+                    и два металлических колеса.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>1981</h3>
+                <p>Xerox выпустила первую коммерческую мышь для компьютера Xerox Star. Цена: $400.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>2004</h3>
+                <p>Logitech MX1000 — первая лазерная мышь с разрешением 800 DPI.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="types" class="section">
+        <h2>Современные виды</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="images/gaming-mouse.jpg" alt="Игровая мышь">
+                <h3>Игровые</h3>
+                <ul>
+                    <li>Высокий DPI (до 25,600)</li>
+                    <li>Программируемые кнопки</li>
+                    <li>RGB-подсветка</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="images/vertical-mouse.jpg" alt="Эргономичная мышь">
+                <h3>Эргономичные</h3>
+                <ul>
+                    <li>Вертикальный дизайн</li>
+                    <li>Снижение нагрузки на запястье</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="images/trackball.jpg" alt="Трекбол">
+                <h3>Трекболы</h3>
+                <ul>
+                    <li>Точный контроль</li>
+                    <li>Удобно для CAD и дизайна</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="test" class="section">
+        <h2>Тест: Проверьте свои знания</h2>
+        <div id="quiz"></div>
+        <button onclick="showResult()">Проверить</button>
+    </section>
+
+    <section id="resources" class="section">
+        <h2>Полезные ресурсы</h2>
+        <div class="links">
+            <a href="https://computerhistory.org/" target="_blank">Музей истории компьютеров</a>
+            <a href="https://habr.com/ru/articles/" target="_blank">Статьи на Habr</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
